@@ -1,0 +1,37 @@
+.maindiv {
+  scroll-snap-align: start;
+  background-color: #0c1923;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+* {
+  margin: 0;
+}
+.centerdiv {
+  /* justify-content: center; */
+  background-color: #6f3d13;
+  margin: auto;
+  height: 75%;
+  width: 33%;
+  text-align: center;
+  border-radius: 20px;
+}
+h1 {
+  margin-top: 15%;
+  background-color: #0c1923;
+  color: white;
+}
+.button_div {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.button_div > button {
+  outline: none;
+  height: 7vh;
+  padding-bottom: 10px;
+  width: 8vw;
+  background-color: white;
+  color: black;
+}

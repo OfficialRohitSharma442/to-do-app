@@ -1,0 +1,79 @@
+.main_div {
+  scroll-snap-align: start;
+  background-color: rgb(41 47 66);
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+}
+.center_div {
+  background-color: antiquewhite;
+  height: 75%;
+  width: 33%;
+  border-radius: 20px;
+  margin-top: 10vh;
+  overflow: scroll;
+}
+.center_div::-webkit-scrollbar {
+  display: none;
+}
+.upperfild {
+  text-align: center;
+}
+h1 {
+  background-color: #4b1c6d;
+  text-align: center;
+  color: white;
+}
+input {
+  border: none;
+  border-bottom: 2px solid #4b1c6d;
+  outline: none;
+  text-align: center;
+  height: 25px;
+  background-color: transparent;
+
+  font-size: 18px;
+}
+.plus {
+  background-color: #4b1c6d;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  margin: 4px 2px;
+  outline: none;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.plus:hover {
+  background-color: green;
+}
+
+.plus:active {
+  background-color: #4b1c6d;
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);
+}
+ol li {
+  text-decoration: none;
+  list-style: none;
+  color: #4b1c6d;
+  padding: 2px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.MuiSvgIcon-root:hover {
+  color: rgb(200, 16, 16);
+}
+.MuiSvgIcon-root:active {
+  color: #a01807;
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);
+}
+.MuiSvgIcon-root {
+  cursor: pointer;
+  transform: translateY(7px);
+}

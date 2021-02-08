@@ -1,0 +1,25 @@
+.note {
+  display: flex;
+  margin-top: 33px;
+  flex-direction: column;
+  padding-top: 10px;
+  height: 133px;
+  width: 224px;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px 0px;
+  justify-content: space-around;
+  margin-right: 50px;
+}
+.btn {
+  width: 40px;
+  border-radius: 32px;
+  outline: none;
+  border: 0;
+  align-self: flex-end;
+}
+.btn:hover {
+  color: red;
+  background-color: #f4b536;
+  transform: scaleY(1.5);
+  transition-duration: 0.5s;
+}
